@@ -9,3 +9,22 @@ Hosting Platforms
 8. Heroku
 9. AWS Amplify (AWS)
 10. Firebase Hosting
+
+
+2.Steps To be Taken to deploy a vite+React Application
+
+1.Build your React application:
+
+2.Run npm run build or yarn build in your project directory. This will generate a production-ready build of your React application in the    dist directory.
+3.Compress your build files:
+    Create a zip file containing all the files and folders inside the dist directory. This zip file will be uploaded to your cPanel account.
+4.Access cPanel:
+    Log in to your cPanel account provided by your hosting provider.
+5.Upload the zip file:
+ Navigate to the "File Manager" in cPanel and upload the zip file containing your build files.
+6.Extract the files:
+Select the uploaded zip file and click on the "Extract" button in the file manager to extract the contents into a directory (e.g., public_html).
+7.Set up the domain (if necessary):
+8.Test your deployed application:
+9.Once the files are extracted and the domain is set up, visit your domain in a web browser to ensure that your application is working correctly.
+9.Depending on your application's requirements, you may need to configure additional settings in cPanel, such as setting up environment variables or configuring the server.
