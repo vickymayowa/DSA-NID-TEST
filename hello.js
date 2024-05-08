@@ -3,7 +3,7 @@ class Queue {
     this.queue = [];
     this.front = 0;
     this.rear = -1;
-    this.maxSize = 10; // example maximum size
+    this.maxSize = 10; 
   }
 
   enqueue(item) {
